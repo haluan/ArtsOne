@@ -41,21 +41,4 @@ $("#radensaleh").click(function(){
 "Hindia Belanda. Ini diwujudkannya dalam lukisan Penangkapan Pangeran Diponegoro.");
 });
 
-$("#lihat-info").click(function(){
-	$("#info-lengkap-seniman").toggle("slow");
-	$("#thumb-sub").toggle("slow");
-	if($("#lihat-info").attr('value')=="galeri"){
-		$("#lihat-info").attr("value","info");
-		$("#lihat-info").text("Info Selengkapnya »");	
-	}else{
-		$("#lihat-info").attr("value", "galeri");
-		$("#lihat-info").text("Galeri «");
-	}
-});
-$("#rumah").click(function(){
-	$("#main-menu").fadeIn("slow");
-	$("#sub-bab").hide();
-});
-$("#sub-bab").hide();
-$("#info-lengkap-seniman").toggle();
 });
