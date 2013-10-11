@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap, from LayoutIt!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="#" class="brand">Title</a>
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav">
+								<li>
+									<!-- class="active" untuk mengeset jadi active -->
+									<a id="rumah" href="#">Home</a>
+								</li>
+								
+								<li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Seni Klasik<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										
+										<li class="nav-header">
+											Nasional
+										</li>
+										<li>
+											<a id="radensaleh" href="#">Raden Saleh</a>
+										</li>
+										<li>
+											<a href="#">Affandi</a>
+										</li>
+										
+										<li class="divider">
+										</li>
+										<li class="nav-header">
+											Luar Negeri
+										</li>
+										<li>
+											<a href="#">Leonardo da Vinci</a>
+										</li>
+										<li>
+											<a href="#">Van Gogh</a>
+										</li>
+										<li>
+											<a href="#">Picasso</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div id="main-menu" class="row-fluid">
+		<div class="span12">
+			<div class="carousel slide" id="carousel-597808">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-597808">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-597808">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-597808">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img alt="" src="img/Vincent_van_Gogh_(1853-1890)_-_Wheat_Field_with_Crows_(1890) 1600.jpg">
+						<div class="carousel-caption">
+							<h4>
+								First Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/radensaleh 1600.jpg">
+						<div class="carousel-caption">
+							<h4>
+								Second Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/da vinci 2 1600.jpg">
+						<div class="carousel-caption">
+							<h4>
+								Third Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+				</div> <a data-slide="prev" href="#carousel-597808" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-597808" class="right carousel-control">›</a>
+			</div>
+			<ul id="thumb-utama" class="thumbnails">
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/da vinci 600.jpg" width="600" height="200">
+						<div class="caption">
+							<h3>
+								Thumbnail label
+							</h3>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> 
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/PabloPicasso-Crucifixion-1930 600.jpg">
+						<div class="caption">
+							<h3>
+								Thumbnail label
+							</h3>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> 
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/Raden Saleh Fighting with a Lion 600.jpg">
+						<div class="caption">
+							<h3>
+								Thumbnail label
+							</h3>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Action</a> 
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- <div class="row-fluid">
+		<div class="span4">
+			<h3>
+				h3. Lorem ipsum dolor sit amet.
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+		<div class="span4">
+			<h3>
+				h3. Lorem ipsum dolor sit amet.
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+		<div class="span4">
+			<h3>
+				h3. Lorem ipsum dolor sit amet.
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div> -->
+	<div id="sub-bab">
+		<div class="hero-unit">
+				<h1 id="nama-seniman" >
+					Hello, world!
+				</h1>
+				<p id="keterangan-seniman">
+					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+				</p>
+				<p>
+					<!-- <a id="lihat-info" class="btn btn-primary btn-large" href="#info-seniman" data-toggle="modal" role="button">Selengkpanya »</a> -->
+					<a id="lihat-info" class="btn btn-primary btn-large" value="info" >Selengkpanya »</a>
+				</p>
+		</div>
+		<ul id="thumb-sub" class="thumbnails">
+				<li class="span4">
+					<div >
+						<img id="sub-thumb-1" alt="300x200" src="http://lorempixel.com/600/200/people">
+						<div class="caption">
+							<h3 id="thumb1">
+								Thumbnail label
+							</h3>
+							<p id="isi-thumb-1">
+								
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div>
+						<img id="sub-thumb-2" alt="300x200" src="http://lorempixel.com/600/200/city">
+						<div class="caption">
+							<h3 id="thumb2">
+								Thumbnail label
+							</h3>
+							<p id="isi-thumb-2">
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div >
+						<img id="sub-thumb-3" alt="300x200" src="http://lorempixel.com/600/200/sports">
+						<div class="caption">
+							<h3 id="thumb3">
+								Thumbnail label
+							</h3>
+							<p id="isi-thumb-3">
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+							
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div id="info-lengkap-seniman">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+						 <div id="info-dalam">
+							<h1 style="text-align: center;"></h1>
+							<div style="text-align: center;">
+								<img alt="300x200" src="">
+							</div>
+							<p>
+								
+							</p>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--MODAL  -->
+	<div id="info-seniman" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+			<h3></h3>
+		</div>
+		<div class="modal-body">
+			
+			<p>
+				
+			</p>
+		</div>
+		<div class="modal-footer">
+			
+		</div>
+	</div>
+	<hr />
+	<div class="row-fluid">
+		<div class="span12">
+			 <address> <strong>ArtsOne.Inc </strong><br> Jl. Telekomunikasi No.13<br> Bojongsoang, Bandung<br> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	
+
+</script>
+</html>
